@@ -32,6 +32,9 @@
     flex: none
 }
 
+.buy-now button{
+    color:red
+}
 .positioning-card .description{
     flex: 1;
     display: flex;

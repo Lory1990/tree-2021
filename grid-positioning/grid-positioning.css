@@ -1,0 +1,21 @@
+.grid-positioning{
+    
+}
+
+.grid-positioning-card{
+    background-color: red;
+    border-radius: 50000000000000px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 65%;
+}
+
+.grid-positioning{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
