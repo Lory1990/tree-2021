@@ -1,0 +1,28 @@
+h1{
+    -webkit-box-shadow: 17px 19px 32px -7px #000000;
+    -moz-box-shadow: 17px 19px 32px -7px #000000;
+    -o-box-shadow: 17px 19px 32px -7px #000000;
+    box-shadow: 17px 19px 32px -7px #000000;
+    color: green;
+}
+
+h1.title-special{
+    padding: 20px;
+}
+
+a#myProjects{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 1em;
+    margin: 15px;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+a#myProjects:hover{
+    transform: translateY(10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #269c28;
+    font-size: 125%;
+}

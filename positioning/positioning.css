@@ -1,0 +1,49 @@
+.positioning{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.positioning-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: burlywood;
+    padding: 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.positioning-card-title{
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+}
+
+.positioning-card-title.premium{
+    color: green;
+}
+
+.positioning-card .positioning-card-title{
+    flex: none
+}
+
+.positioning-card .description{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* @media (max-width: 768px) {
+    .positioning{
+        flex-direction: column;
+    }
+
+    .positioning-card{
+        background-color:lightpink;
+    }
+} */
